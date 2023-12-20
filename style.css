@@ -5,8 +5,56 @@
     box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
-
+body{
+    background-color: #183a4a;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+li {
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.container-custom {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.blue {
+    background-color: #3d88ae;
+}
+
+.green {
+    background-color: #61d2a4;
+}
+
+.yellow {
+    background-color: #f9d277;
+}
+
+.red {
+    background-color: #de5471;
+}

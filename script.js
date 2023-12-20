@@ -23,16 +23,16 @@ for (let i = 1 ; i <= 100 ; i++) {
 
     if (i % 3 === 0 && i % 5 === 0) { //Multipli di 3 e 5
         console.log("FizzBuzz", i);
-        listItem += `<li>FizzBuzz</li>`;
+        listItem += `<li class="box red">FizzBuzz</li>`;
     } else if (i % 5 === 0) { //Multipli di 5
         console.log("Buzz", i);
-        listItem += `<li>Buzz</li>`;
+        listItem += `<li class="box yellow">Buzz</li>`;
     } else if (i % 3 === 0) { //Multipli di 3
         console.log("Fizz", i);
-        listItem += `<li>Fizz</li>`;
+        listItem += `<li class="box green">Fizz</li>`;
     } else {
         console.log(i);
-        listItem += `<li>${i}</li>`;
+        listItem += `<li class="box blue">${i}</li>`;
     }
 
 }
